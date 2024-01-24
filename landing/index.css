@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+    /* colors ko declore krre hai  */
+    /* colors codes are imported from one single source :) */
+    --body-col : #E4E9F7;
+    --sidebar-col : #fff;
+    --primary-col : #695CFE;
+    --primary-col2 : #F6F5FF;
+    --tog-col : #ddd;
+    --text-col : #707070;
+    
+    /* transition ka part */
+    /* --n1 : all 0.2s ease;
+    --n1 : all 0.3s ease;
+    --n2 : all 0.4s ease;
+    --n3 : all 0.5s ease; */
+}
+
+
+/* Main container ka  */
+.main{
+    position: relative;
+    top: 30px;
+    left: 50%;
+    color: black;
+}
+
+
+body{
+    height: 20vh;
+    background: var(--body-col);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-bar{
+    /* width: 71pc; */
+    background-color: black;
+    color: wheat;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-bar ul
+{
+    display: flex;
+  
+  
+    list-style: none;
+}
+.nav-bar li{
+    padding: 15px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* side bar container  */
+.side{
+    margin-bottom: 200px;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--sidebar-col);
+}
+.side-text p{
+    color: black;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    top: 4pc;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+}
+
+
+/* side bar ka image  */
+
+.side .image img{
+    position: relative;
+    top: 10px;
+    width: 6vh;
+}
+
+.side .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* head text ka  */
+.side .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side .header .text-01{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+/* Mode switching ka part */
+.modes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 11pc;
+}
+.modes .text{
+    font-weight: 600;
+}
