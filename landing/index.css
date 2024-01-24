@@ -27,11 +27,14 @@
     color: black;
 }
 
+/* body section  */
 
 body{
     height: 20vh;
     background: var(--body-col);
 }
+
+/* base */
 *{
     padding: 0;
     margin: 0;
@@ -40,22 +43,19 @@ body{
 
 
 .nav-bar{
-    /* width: 71pc; */
     background-color: black;
-    color: wheat;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* width: 20p; */
 }
-
 
 .nav-bar ul
 {
     display: flex;
-  
-  
     list-style: none;
+    position: relative;
+    left: 3.5pc;
 }
 .nav-bar li{
     padding: 15px;
@@ -144,4 +144,11 @@ a{
 }
 .modes .text{
     font-weight: 600;
+}
+
+
+/* icons styling */
+
+.bx-moon{
+    width: 25px;
 }
