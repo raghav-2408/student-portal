@@ -120,6 +120,20 @@ a{
 }
 
 
+/* log out ka part */
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout .text-02{
+    font-weight: 600;
+    position: relative;
+    top: 8.75pc;
+}
+
 /* Mode switching ka part */
 .modes{
     display: flex;
