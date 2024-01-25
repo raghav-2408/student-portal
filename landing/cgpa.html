@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cgpa.css">
+</head>
+<body>
+    <div class="box">
+        <h1>CGPA Generator</h1>
+        <h3>Enter the SGPA </h3>
+        <p>Note : Blanks are left to be None if no data is available<p  >
+        <p>Semester - 1</p>
+        <div class="input">
+            <input type="text" id = "values">
+        </div>
+        <p>Semester - 2</p>
+        <div class="input">
+            <input type="text" id = "values">
+        </div>
+        <p>Semester - 3</p>
+        <div class="input">
+            <input type="text" id = "values">
+        </div>
+        <p>Semester - 4</p>
+        <div class="input">
+            <input type="text" id = "values">
+        </div>
+        <p>Semester - 5</p>
+        <div class="input">
+            <input type="text" id = "values">
+        </div>
+        <p>Semester - 6</p>
+        <div class="input">
+            <input type="text" id = "values">
+        </div>
+        <p>Semester - 7</p>
+        <div class="input">
+            <input type="text" id = "values">
+        </div>
+        <p>Semester - 8</p>
+        <div class="input">
+            <input type="text" id = "values">
+        </div>
+
+        <div class="btn">
+
+            <button>Generate</button>
+        </div>
+
+        <div class="span">
+            <span id = 'sp'>CGPA : </span>  
+        </div>
+        <p id = 'value'></p>
+    </div>
+    <script>
+        let calc = document.getElementById('values')
+        let spann = document.getElementById('sp')
+        let empty = document.getElementById('value')
+        
+        let value = calc.value
+        empty.textContent = value
+    </script>
+</body>
+</html>

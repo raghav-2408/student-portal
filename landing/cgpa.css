@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.box{
+    border: 2px solid white;
+    height: 99vh;
+    width: 500px;
+    box-shadow: 0 10px 85px -5px grey;
+}
+
+.box h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box input{
+    padding: 5px;
+    width: 12pc;
+    border-radius: 7px;
+}
+
+.box .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 13px;
+}
+
+.box .btn button{
+    padding: 10px;
+    width: 7pc;
+    border-radius: 7px;
+    font-weight: 800;
+}
+
+.box .btn button :hover{
+    cursor: pointer;
+}
+
+.box .span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .span span{
+    position: relative;
+    top: 25px;
+}
+
+.box p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
